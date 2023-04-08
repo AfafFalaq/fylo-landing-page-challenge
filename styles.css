@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700;800&family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Raleway:wght@400;700&display=swap');
+body{
+    margin: 0;
+    background-color: rgb(248, 253, 255);
+    font-family: "Raleway",sans-serif;
+}
+
+header{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 40px;
+}
+.first-box{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:150px;
+}
+h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Raleway",sans-serif;
+}
+.first-box img{
+    width: 500px;
+    height: 400px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.first-button{
+    width:130px;
+    height: 33px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.left-box{
+    padding-right: 250px;
+}
+.second-box img{
+    width: 500px;
+    height: 400px;
+}
+.second-box{
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline hsl(170, 45%, 43%) ;
+    padding-bottom: 30px;
+}
+.third-box{
+    background-color: hsl(238, 22%, 44%);
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+.second-button{
+    width:150px;
+    height: 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.description{
+    margin-right: 450px;
+}
+.second-input-field{
+    width: 350px;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.access{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 80px;
+}
+#arrow{
+    width: 12px;
+    height: 12px;
+}
+.card{
+    background-color: white;
+    height:150px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 3px 3px rgba(211, 211, 211, 0.76) ;
+}
+.card-text{
+    font-size: 12px;
+    line-height: 20px;
+}
+.name{
+    font-size: 12px;
+    font-weight: 700;
+}
+span{
+    font-size: 9px;
+}
+
+#quotes{
+    height: 15px;
+    width: 15px;
+    padding-bottom: 10px;
+}
+#avatar{
+    width:30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.person{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.left-box2{
+    margin-right: 250px;
+}
+footer{
+    padding: 60px;
+    height:200px;
+    background-color:hsl(243, 87%, 12%) ;
+}
+.first-list{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-top: 80px;
+    margin-right: 60px;
+}
+.second-list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+.phone{
+    height:20px;
+    display: flex;
+    align-items: center;
+
+}
+h5{
+    color: white;
+    padding-left: 10px;
+    font-weight: 400;
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+#fylo{
+    margin-bottom: 20px;
+}
+.first-list a{
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.second-list a{
+    color: white; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+    font-size: 13px;
+
+}
